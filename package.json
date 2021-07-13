@@ -1,0 +1,34 @@
+{
+  "name": "time-switch-react-native",
+  "version": "0.0.1",
+  "description": "A time/toggle switch for react native, it works on Android, iOS and web(react-native-web)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirwablessing/time-switch-react-native.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "react",
+    "native",
+    "switch",
+    "switch",
+    "toggle",
+    "toggle",
+    "switch",
+    "expo",
+    "time",
+    "switch"
+  ],
+  "author": "Blessing Hirwa <hirwablessing7@gmail.com> (https://blessinghirwa.tech/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirwablessing/time-switch-react-native/issues"
+  },
+  "homepage": "https://github.com/hirwablessing/time-switch-react-native#readme"
+}
