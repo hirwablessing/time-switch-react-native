@@ -7,8 +7,6 @@ import {
 } from "react-native";
 
 import colors from "../config/colors";
-import { Ionicons } from "@expo/vector-icons";
-import CustomText from "../components/CustomText";
 
 export default function TimeSwitch({ time }) {
   const [isActive, setIsActive] = useState(true);
@@ -18,6 +16,10 @@ export default function TimeSwitch({ time }) {
     timeSwitch: {
       marginLeft: 10,
       flexDirection: "row",
+    },
+    timeSwitch__text: {
+      color: "#fff",
+      fontSize: 15,
     },
     timeSwitch__all: {
       backgroundColor: isLeftActive ? colors.black : colors.white,
@@ -56,7 +58,7 @@ export default function TimeSwitch({ time }) {
         >
           <View style={[styles.timeSwitch__all, styles.timeSwitch__left]}>
             {isLeftActive ? (
-              <CustomText content="AM" color={colors.white} size={15} />
+              <Text style={styles.timeSwitch__text}>AM</Text>
             ) : (
               <Image
                 source={require("../assets/moon-line.png")}
@@ -74,7 +76,7 @@ export default function TimeSwitch({ time }) {
         >
           <View style={[styles.timeSwitch__all, styles.timeSwitch__right]}>
             {isActive ? (
-              <CustomText content="PM" color={colors.white} size={15} />
+              <Text style={styles.timeSwitch__text}>AM</Text>
             ) : (
               <Image
                 source={require("../assets/sun-line.png")}
