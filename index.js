@@ -4,11 +4,10 @@ import {
   TouchableWithoutFeedback,
   View,
   Image,
+  Text,
 } from "react-native";
 
-import colors from "../config/colors";
-
-export default function TimeSwitch({ time }) {
+export default function TimeSwitch() {
   const [isActive, setIsActive] = useState(true);
   const [isLeftActive, setIsLeftActive] = useState(false);
 
@@ -22,10 +21,10 @@ export default function TimeSwitch({ time }) {
       fontSize: 15,
     },
     timeSwitch__all: {
-      backgroundColor: isLeftActive ? colors.black : colors.white,
+      backgroundColor: isLeftActive ? "#000" : "#fff",
       width: 60,
       height: 35,
-      borderColor: colors.black,
+      borderColor: "#000",
       borderWidth: 1,
     },
     timeSwitch__left: {
@@ -42,7 +41,7 @@ export default function TimeSwitch({ time }) {
       borderBottomRightRadius: 10,
       justifyContent: "center",
       alignItems: "center",
-      backgroundColor: isActive ? colors.black : colors.white,
+      backgroundColor: isActive ? "#000" : "#fff",
     },
     timeSwitch__icons: { width: 20, height: 20 },
   });
@@ -61,7 +60,7 @@ export default function TimeSwitch({ time }) {
               <Text style={styles.timeSwitch__text}>AM</Text>
             ) : (
               <Image
-                source={require("../assets/moon-line.png")}
+                source={require("./icons/moon-line.png")}
                 style={styles.timeSwitch__icons}
               />
             )}
@@ -79,7 +78,7 @@ export default function TimeSwitch({ time }) {
               <Text style={styles.timeSwitch__text}>AM</Text>
             ) : (
               <Image
-                source={require("../assets/sun-line.png")}
+                source={require("./icons/sun-line.png")}
                 style={styles.timeSwitch__icons}
               />
             )}

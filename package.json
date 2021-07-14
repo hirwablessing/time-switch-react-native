@@ -28,12 +28,12 @@
   ],
   "author": "Blessing Hirwa <hirwablessing7@gmail.com> (https://blessinghirwa.tech/)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hirwablessing/time-switch-react-native/issues"
-  },
-  "homepage": "https://github.com/hirwablessing/time-switch-react-native#readme",
   "peerDependencies": {
     "react": "16.13.1",
     "react-native": "^0.55.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hirwablessing/time-switch-react-native/issues"
+  },
+  "homepage": "https://github.com/hirwablessing/time-switch-react-native#readme"
 }
