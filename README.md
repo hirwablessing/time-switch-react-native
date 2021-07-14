@@ -33,7 +33,7 @@ import TimeSwitch from "time-switch-react-native";
 ## Demo
 
 <p align="center">
-  <img alt="Time switch demo" src="https://github.com/hirwablessing/time-switch-react-native/blob/main/demo/demo.gif" width="500" />
+  <img alt="Time switch demo" src="https://github.com/hirwablessing/time-switch-react-native/blob/main/demo/demo.gif" width="300" width="900" />
 </p>
 ## Getting started
 
