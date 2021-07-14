@@ -32,7 +32,7 @@ import TimeSwitch from "time-switch-react-native";
 
 ## Demo
 
-![Screenshots](https://user-images.githubusercontent.com/6145715/62531210-4961a880-b842-11e9-918e-296cc0fd1666.gif)
+![Screenshots](demo/demo.gif)
 
 ## Getting started
 
