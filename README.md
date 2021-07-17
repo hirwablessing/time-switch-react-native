@@ -5,7 +5,6 @@ Time Switch Component for react native, it works on Android, iOS and Web (react-
 - [Installation](#installation)
 - [Demo](#demo)
 - [Getting started](#getting-started)
-- [API](#api)
 - [Contribution](#contribution)
 
 ## Installation
